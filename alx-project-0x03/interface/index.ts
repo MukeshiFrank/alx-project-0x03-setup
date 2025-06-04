@@ -1,12 +1,12 @@
-// interface/index.ts
-
-export interface HomeProps {
+export interface PageRouteProps {
   title: string;
 }
 
 export interface ButtonProps {
   label: string;
-  onClick: () => void;
+  size?: string;
+  backgroundColor?: 'red' | 'blue' | 'orange' | 'green';
+  onClick?: () => void;
 }
 
 export interface LayoutProps {
